@@ -1,0 +1,9 @@
+Foi necessário instalar o Maven e configurar as váriaveis de ambiente
+Criei uma variável chama MAVEN_HOME e associei a ela o caminho do Maven
+Em seguida adicionei essa variável ao Path
+
+Quando abri o projeto no Intellij IDEA Community precisei ir em File>Project Structure>Project e configurar o SDK
+Na mesma página de Project Structure precisei acessar a pasta SDKs e selecionar a versão do Java que eu usei
+no Spring Initializr.
+
+Foi necessário remover o <scope>provided</scope> da depenencia do TomCat
